@@ -11,31 +11,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GLSLProgram.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Error.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ImageLoader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="picoPNG.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="IOManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="MainGame.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Sprite.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ResourceManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="TextureCache.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -43,16 +19,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GLSLProgram.h" />
-    <ClInclude Include="Error.h" />
-    <ClInclude Include="GLTexture.h" />
-    <ClInclude Include="ImageLoader.h" />
-    <ClInclude Include="picoPNG.h" />
-    <ClInclude Include="IOManager.h" />
     <ClInclude Include="MainGame.h" />
-    <ClInclude Include="Sprite.h" />
-    <ClInclude Include="Vertex.h" />
-    <ClInclude Include="ResourceManager.h" />
-    <ClInclude Include="TextureCache.h" />
   </ItemGroup>
 </Project>

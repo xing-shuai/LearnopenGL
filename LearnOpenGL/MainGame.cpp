@@ -46,11 +46,14 @@ void MainGame::initSystem() {
 		fatalError("Could not initialize glew");
 	}
 
-	printf("OpenGL Version: %s", glGetString(GL_VERSION));
+	printf("********* OpenGL Version: %s *********\n", glGetString(GL_VERSION));
 
 
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 	glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
+
+	//set VSYNC
+	//SDL_GL_SetSwapInterval(1);
 
 	initShaders();
 }
